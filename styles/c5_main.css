@@ -1,0 +1,62 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    width: 600px;
+    margin: 0 auto; /* Centers the body */
+    border: 3px solid #931420;
+    background-color: #fffded;
+}
+
+/* Styling for the html element */
+html {
+    background-color: white;
+}
+
+/* Styling for the header */
+header {
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    border-bottom: 3px solid #931420;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+/* Styling for header elements */
+header img {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* Styling for main h1 */
+main h1 {
+    border: 3px double #931420; /* Double border with specific color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Spacing inside the box */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    text-align: center; /* Center-align text */
+    margin: 20px 0; /* Margin around the heading */
+}
+
+/* Styling for the main element */
+main {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #931420;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Styling for the blockquote */
+blockquote {
+    font-style: italic;
+}
